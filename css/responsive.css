@@ -1,0 +1,83 @@
+@media all and (max-width: 1200px)
+{
+.hero-text-box {
+		width: 90%;
+	}
+	.row {
+		margin: 0 15px;
+	}
+	.header {
+		margin:  15px;
+	}
+	.logo {
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width: 1024px) 
+{
+	.mobile-menu .fa {
+		display: block !important;
+	}
+	.main-menu {
+		display: none;
+	}
+	html {
+		font-size: 57.5%;
+	}
+	.testimonial-img {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+	.testimonial-review {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.contact-section form {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 980px)
+
+{
+	html {
+		font-size: 62.5%;
+	}
+	.span_1_of_4 {
+		width: 49.2%;
+	}
+	.span_1_of_4:nth-child(3) {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 768px) 
+{
+	.services-title {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	
+}
+@media only screen and (max-width: 768px)
+{
+ .span_1_of_4 {
+		width: 100%;
+	}
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 1.9rem;
+	}
+	h5 {
+		font-size: 1.7rem; 
+	}
+}
